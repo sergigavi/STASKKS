@@ -1,0 +1,42 @@
+{
+  "name": "STASKK - Kanban Board",
+  "short_name": "STASKK",
+  "start_url": "/STASKKS/",
+  "scope": "/STASKKS/",
+  "display": "standalone",
+  "background_color": "#f3f4f6",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "description": "Local-first Kanban board for task management. Works offline, data stored locally.",
+  "icons": [
+    {
+      "src": "assets/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "categories": ["productivity", "tools"],
+  "screenshots": [
+    {
+      "src": "assets/screenshots/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Desktop view - Kanban board with 4 columns"
+    },
+    {
+      "src": "assets/screenshots/screenshot-narrow.png",
+      "sizes": "360x640",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Mobile view - Single column view"
+    }
+  ]
+}
